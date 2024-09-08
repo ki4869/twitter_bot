@@ -48,7 +48,7 @@ def tweet(media) -> requests.Response:
 
 
 def main():
-    medias = get_random_medias()
+    medias = get_random_media()
     tweet(medias)
 
 
