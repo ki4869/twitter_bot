@@ -1,4 +1,4 @@
-name: output
+name: dc1
 
 on:
   workflow_dispatch:
