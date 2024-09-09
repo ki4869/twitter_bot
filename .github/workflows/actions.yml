@@ -1,4 +1,4 @@
-name: Detective_Conan_Opening_13
+name: output
 
 on:
   workflow_dispatch:
