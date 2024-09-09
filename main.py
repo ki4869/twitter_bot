@@ -5,7 +5,7 @@ import tweepy
 
 
 # Pick a random image/video from the 'assets' folder
-def get_random_media():
+def get_random_medias():
     path = 'assets' # 
     objects = os.listdir(path)
 
@@ -48,7 +48,7 @@ def tweet(media) -> requests.Response:
 
 
 def main():
-    medias = get_random_media()
+    medias = get_random_medias()
     tweet(medias)
 
 
